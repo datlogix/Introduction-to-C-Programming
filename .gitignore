@@ -1,0 +1,26 @@
+# Compiled binaries (no extension, produced by gcc -o)
+01-basics-of-programming/examples/*
+!01-basics-of-programming/examples/*.c
+02-data-types-and-operators/examples/*
+!02-data-types-and-operators/examples/*.c
+03-variables-and-io/examples/*
+!03-variables-and-io/examples/*.c
+04-control-structures/examples/*
+!04-control-structures/examples/*.c
+05-arrays-and-strings/examples/*
+!05-arrays-and-strings/examples/*.c
+06-functions/examples/*
+!06-functions/examples/*.c
+07-pointers/examples/*
+!07-pointers/examples/*.c
+08-structs-and-files/examples/*
+!08-structs-and-files/examples/*.c
+
+*.o
+*.out
+*.exe
+*.dSYM/
+.vscode/
+.DS_Store
+*.dat
+*.log
