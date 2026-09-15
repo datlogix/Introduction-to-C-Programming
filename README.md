@@ -1,9 +1,22 @@
-# Introduction to C Programming — A Beginner's Course
+# Introduction to C Programming
 
 Welcome! This course takes you from **never having written a line of
-code** to **building a multi-file C project with pointers, structs, and
-file I/O, tracked in Git and submitted through GitHub Classroom.** No
-prior programming experience is assumed.
+code** to **designing your own leak-free, multi-file data structures**,
+tracked in Git and submitted through GitHub Classroom. No prior
+programming experience is assumed.
+
+The course comes in two parts:
+
+- **Part 1 — Modules 0–9.** Zero to a working, file-backed C program:
+  syntax, types, control flow, arrays and strings, functions, pointers,
+  structs, and a team capstone.
+- **Part 2 — Modules 10–19.** The actual dividing line between "I can
+  write C" and "I've written some C once": recursion, dynamic memory,
+  linked lists and the structures built on them, multi-file program
+  organization, debugging tools, and a second, harder capstone.
+
+Part 2 assumes Part 1 is finished — Module 10 does not re-explain
+anything from Modules 0–9.
 
 ## Built to work with or without a lecturer in the room
 
@@ -41,6 +54,8 @@ Every module (after Setup) follows the same shape:
 
 ## Roadmap
 
+### Part 1
+
 | # | Module | You will be able to... |
 |---|--------|------------------------|
 | 0 | [Setup: Tools, Git & GitHub Classroom](00-setup/README.md) | Install a compiler, use VS Code, and submit work through GitHub Classroom |
@@ -53,6 +68,21 @@ Every module (after Setup) follows the same shape:
 | 7 | [Pointers](07-pointers/README.md) | Work directly with memory addresses — the idea that makes C, C |
 | 8 | [Structs & File I/O](08-structs-and-files/README.md) | Design your own data records and make programs remember things after they close |
 | 9 | [Capstone Project](09-capstone-project/README.md) | Combine everything into one real program, built in a team and submitted via GitHub Classroom |
+
+### Part 2
+
+| # | Module | You will be able to... |
+|---|--------|------------------------|
+| 10 | [Recursion](10-recursion/README.md) | Write a function that calls itself correctly, and trace its call stack by hand |
+| 11 | [Dynamic Memory Allocation](11-dynamic-memory-allocation/README.md) | Use `malloc`/`calloc`/`realloc`/`free` and stop being limited to fixed-size arrays |
+| 12 | [Linked Lists](12-linked-lists/README.md) | Build a growable data structure from structs, pointers, and dynamic memory |
+| 13 | [Stacks & Queues](13-stacks-and-queues/README.md) | Implement LIFO/FIFO structures and recognize where each applies |
+| 14 | [Multi-File Programs](14-multi-file-programs/README.md) | Split a program across `.h`/`.c` files with include guards, and compile them together |
+| 15 | [Debugging & Memory Safety](15-debugging-and-memory-safety/README.md) | Use `gdb` and `valgrind` to find a crash's real cause and catch memory leaks |
+| 16 | [Enums, Unions & Bitwise Operators](16-enums-unions-and-bitwise-operators/README.md) | Model fixed states cleanly and manipulate individual bits |
+| 17 | [Command-Line Arguments & CLI Tools](17-command-line-arguments-and-cli-tools/README.md) | Read `argc`/`argv` and build a real terminal tool, not just a menu loop |
+| 18 | [Sorting & Searching Algorithms](18-sorting-and-searching-algorithms/README.md) | Implement classic sorts and searches, with an intuition for why some are faster |
+| 19 | [Part 2 Capstone Project](19-part-2-capstone-project/README.md) | Build a leak-free, multi-file program on a dynamic data structure, submitted via GitHub Classroom |
 
 ## Ground rules for how we'll work
 
@@ -70,17 +100,18 @@ Every module (after Setup) follows the same shape:
 
 ## How work gets submitted
 
-Every exercise, module project, and the capstone are submitted through
+Every exercise, module project, and both capstones are submitted through
 **GitHub Classroom**, not by email or file upload:
 
-- Individual modules (0–8): you accept a per-student assignment link once
-  (Module 0 walks through this), which gives you your own private repo.
-  Commit and push your work there as you go — the last commit before a
-  deadline is what gets graded.
-- The capstone (Module 9): a **group assignment** — GitHub Classroom
-  creates one shared repo per team. See
-  [Module 9](09-capstone-project/README.md) for exactly how teams are
-  formed and how many people are on yours.
+- Individual modules (0–8, 10–18): you accept a per-student assignment
+  link once (Module 0 walks through this), which gives you your own
+  private repo. Commit and push your work there as you go — the last
+  commit before a deadline is what gets graded.
+- The capstones (Module 9, Module 19): each is a **group assignment** —
+  GitHub Classroom creates one shared repo per team. See
+  [Module 9](09-capstone-project/README.md) and
+  [Module 19](19-part-2-capstone-project/README.md) for exactly how
+  teams are formed and how many people are on yours.
 
 ## Prerequisites
 
