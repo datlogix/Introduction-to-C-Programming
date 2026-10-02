@@ -46,8 +46,10 @@ Every module (after Setup) follows the same shape:
    code you didn't type teaches you far less than watching your own build
    succeed (or fail) at the terminal.
 3. **`exercises/`** — practice problems with starter files containing
-   `TODO` markers. A `solutions/` folder sits next to them — try for at
-   least 15 minutes before you look.
+   `TODO` markers. Reference solutions aren't included in this repo — your
+   instructor shares them after the deadline, so give each exercise a real
+   attempt (at least 15 minutes) and use your compiler output and
+   debugging to check your own work.
 4. **`project/`** — a small, fun program that only uses what you've
    learned *so far*. This is the payoff for the module — something you'd
    actually want to show a friend.

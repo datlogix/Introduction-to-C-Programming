@@ -27,9 +27,10 @@ module. Your job:
 
            gcc main.c temputils.c -o program
 
-When you're done, compare against exercises/solutions/ -- your file
-names and exact wording can differ, but the split (declarations in the
-header, bodies in the source file, guard in place) should match.
+When you're done, check your work: the program's output must match
+the unsplit version exactly. Your file names and wording can differ, but
+the split (declarations in the header, bodies in the source file, guard
+in place) should hold. Ask your instructor for the reference split.
 */
 
 #define FREEZING_POINT_C 0

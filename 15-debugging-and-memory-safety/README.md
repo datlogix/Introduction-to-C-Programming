@@ -378,8 +378,8 @@ shows all four working together in one file:
    explain in your own words what each report line means before moving
    on.
 2. Complete [`exercises/exercise1.c`](exercises/exercise1.c) -- find and
-   describe the bug yourself before checking
-   [`exercises/solutions/exercise1_solution.c`](exercises/solutions/exercise1_solution.c).
+   describe the bug yourself before asking
+   your instructor for the reference solution.
 3. Build the [module project](project/README.md): a program with three
    separate bugs, waiting for you to diagnose and fix all of them.
 4. Commit and push your work:

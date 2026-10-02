@@ -14,7 +14,7 @@ valgrind (or, if neither is available on your machine, a careful
 line-by-line audit -- see the README's platform note) to find it. Then
 write one or two sentences as a comment at the bottom of this file
 describing what tool/technique found it and what the bug was, before
-you look at the solution.
+you ask your instructor for the solution.
 
 Hint: trace every path out of main() after findTarget() returns. Does
 memory get freed on ALL of them, or just some?
