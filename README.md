@@ -120,3 +120,5 @@ Every exercise, module project, and both capstones are submitted through
 None, other than curiosity and a willingness to make (and fix) mistakes.
 Mistakes are not a sign you're bad at this — they're the main way anyone
 learns to program. Start with [Module 0: Setup](00-setup/README.md).
+
+Douglas Ayitey
